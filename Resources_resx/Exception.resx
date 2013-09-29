@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EX_46554E_53454C_CollectAndComputeNumbers" xml:space="preserve">
+    <value>The Class Functions, Where { CollectAndComputeNumbers } is located contained errors.
+&gt;&gt; Select Case Else / Functions
+Did not select an item and invoked "Case Else"
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Select Case Else / Functions</comment>
+  </data>
+  <data name="EX_46554E_53454C_ItemDatabase_Items" xml:space="preserve">
+    <value>The Class Functions, Where { ItemDatabase_Items } is located contained errors.
+&gt;&gt; Select Case Else / Functions
+Did not select an item and invoked "Case Else"
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Select Case Else / Functions</comment>
+  </data>
+  <data name="EX_46554E_53454C_SimpleMath" xml:space="preserve">
+    <value>The Class Functions, Where { SimpleMath } is located contained errors.
+&gt;&gt; Select Case Else / Functions
+Did not select an item and invoked "Case Else"
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Select Case Else / Functions</comment>
+  </data>
+  <data name="EX_46554E_53454C_SumCount" xml:space="preserve">
+    <value>The Class Functions, Where { SumCount } is located contained errors.
+&gt;&gt; Select Case Else / Functions
+Did not select an item and invoked "Case Else"
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Select Case Else / Functions</comment>
+  </data>
+  <data name="EX_46554E_545259_Collect_And_Compute_Numbers" xml:space="preserve">
+    <value>The Class Functions, Where { CollectAndComputeNumbers } is located contained errors.
+&gt;&gt; Try...Catch / Functions
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Functions</comment>
+  </data>
+  <data name="EX_46554E_545259_DoGlobalTotals" xml:space="preserve">
+    <value>The Class Functions, Where { DoGlobalTotals } is located contained errors.
+&gt;&gt; Try...Catch / Functions
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Functions</comment>
+  </data>
+  <data name="EX_46554E_545259_Get_ControlNameString" xml:space="preserve">
+    <value>The Class Functions, Where { Get_ControlNameString } is located contained errors.
+&gt;&gt; Try...Catch / Functions
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Functions</comment>
+  </data>
+  <data name="EX_46554E_545259_ItemDatabase_Items" xml:space="preserve">
+    <value>The Class Functions, Where { ItemDatabase_Items } is located contained errors.
+&gt;&gt; Try...Catch / Functions
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Functions</comment>
+  </data>
+  <data name="EX_46554E_545259_SimpleMath" xml:space="preserve">
+    <value>The Class Functions, Where { SimpleMath } is located contained errors.
+&gt;&gt; Try...Catch / Functions
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Functions</comment>
+  </data>
+  <data name="EX_46554E_545259_SumCount" xml:space="preserve">
+    <value>The Class Functions, Where { SumCount } is located contained errors.
+&gt;&gt; Try...Catch / Functions
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Functions</comment>
+  </data>
+  <data name="EX_46554E_545259_TestForInvalid" xml:space="preserve">
+    <value>The Class Functions, Where { TestForInvalid } is located contained errors.
+&gt;&gt; Try...Catch / Functions
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Functions</comment>
+  </data>
+  <data name="EX_46554E_545259_TimeStamp" xml:space="preserve">
+    <value>The Class Functions, Where { TimeStamp } is located contained errors.
+&gt;&gt; Try...Catch / Functions
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Functions</comment>
+  </data>
+  <data name="EX_484D45_545259_btn_Calculator_Submit_Click" xml:space="preserve">
+    <value>The Class Home, Where { btn_Calculator_Submit_Click } is located contained errors.
+&gt;&gt; Try...Catch / Home
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Home</comment>
+  </data>
+  <data name="EX_534D47_53454C_PhasePicSelect" xml:space="preserve">
+    <value>The Class SamsGameWhere { PhasePicSelect } is located contained errors.
+&gt;&gt; Select Case Else / SamsGame
+Did not select an item and invoked "Case Else"
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Select Case Else / SamsGame</comment>
+  </data>
+  <data name="EX_534D47_545259_BuildTable" xml:space="preserve">
+    <value>The Class SamsGame, Where { BuildTable } is located contained errors.
+&gt;&gt; Try...Catch / SamsGame
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / SamsGame</comment>
+  </data>
+  <data name="EX_534D47_545259_CollectSenderInformation" xml:space="preserve">
+    <value>The Class SamsGame, Where { CollectSenderInformation } is located contained errors.
+&gt;&gt; Try...Catch / SamsGame
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / SamsGame</comment>
+  </data>
+  <data name="EX_534D47_545259_ColorCursorSelectCase" xml:space="preserve">
+    <value>The Class SamsGame, Where { ColorCursorSelectCase } is located contained errors.
+&gt;&gt; Try...Catch / SamsGame
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / SamsGame</comment>
+  </data>
+  <data name="EX_534D47_545259_DisplayFromTable" xml:space="preserve">
+    <value>The Class SamsGame, Where { DisplayFromTable } is located contained errors.
+&gt;&gt; Try...Catch / SamsGame
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / SamsGame</comment>
+  </data>
+  <data name="EX_534D47_545259_lbl_Phase_4_8_Click" xml:space="preserve">
+    <value>The Class SamsGame, Where { lbl_Phase_4_8_Click } is located contained errors.
+&gt;&gt; Try...Catch / SamsGame
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / SamsGame</comment>
+  </data>
+  <data name="EX_534D47_545259_PhasePicSelect" xml:space="preserve">
+    <value>The Class SamsGame, Where { PhasePicSelect } is located contained errors.
+&gt;&gt; Try...Catch / SamsGame
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / SamsGame</comment>
+  </data>
+  <data name="EX_534D47_545259_SamsGame_Load" xml:space="preserve">
+    <value>The Class SamsGame, Where { SamsGame_Load } is located contained errors.
+&gt;&gt; Try...Catch / SamsGame
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / SamsGame</comment>
+  </data>
+  <data name="EX_534D47_545259_TheBusinessSub" xml:space="preserve">
+    <value>The Class SamsGame, Where { TheBusinessSub } is located contained errors.
+&gt;&gt; Try...Catch / SamsGame
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / SamsGame</comment>
+  </data>
+  <data name="EX_535441_545259_Check_DisplayResolution" xml:space="preserve">
+    <value>The Class StaticWork, Where { Check_DisplayResolution } is located contained errors.
+&gt;&gt; Try...Catch / StaticWork
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / StaticWork</comment>
+  </data>
+  <data name="EX_535441_545259_Hexadecimal" xml:space="preserve">
+    <value>The Class StaticWork, Where { Hexadecimal } is located contained errors.
+&gt;&gt; Try...Catch / StaticWork
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / StaticWork</comment>
+  </data>
+  <data name="EX_535542_545259_ActivityDataGrid" xml:space="preserve">
+    <value>The Class Subroutines, Where { ActivityDataGrid } is located contained errors.
+&gt;&gt; Try...Catch / Subroutines
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Subroutines</comment>
+  </data>
+  <data name="EX_535542_545259_ControlColor" xml:space="preserve">
+    <value>The Class Subroutines, Where { ControlColor } is located contained errors.
+&gt;&gt; Try...Catch / Subroutines
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Subroutines</comment>
+  </data>
+  <data name="EX_535542_545259_ControlViewSwitcher" xml:space="preserve">
+    <value>The Class Subroutines, Where { ControlViewSwitcher } is located contained errors.
+&gt;&gt; Try...Catch / Subroutines
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Subroutines</comment>
+  </data>
+  <data name="EX_535542_545259_Select_Last_Row" xml:space="preserve">
+    <value>The Class Subroutines, Where { Select_Last_Row } is located contained errors.
+&gt;&gt; Try...Catch / Subroutines
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Subroutines</comment>
+  </data>
+  <data name="EX_535542_545259_ShowValuesNeeded" xml:space="preserve">
+    <value>The Class Subroutines, Where { ShowValuesNeeded } is located contained errors.
+&gt;&gt; Try...Catch / Subroutines
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Subroutines</comment>
+  </data>
+  <data name="EX_535542_545259_SubmitAndUpdateItem" xml:space="preserve">
+    <value>The Class Subroutines, Where { SubmitAndUpdateItem } is located contained errors.
+&gt;&gt; Try...Catch / Subroutines
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Subroutines</comment>
+  </data>
+  <data name="EX_484D45_545259_tsm_UndoLastLogEntry_Click" xml:space="preserve">
+    <value>The Class Home, Where { tsm_UndoLastLogEntry_Click } is located contained errors.
+&gt;&gt; Try...Catch / Home
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Home</comment>
+  </data>
+  <data name="EX_525645_545259_btn_Calculate_Click" xml:space="preserve">
+    <value>The Class Revive, Where { btn_Calculate_Click } is located contained errors.
+&gt;&gt; Try...Catch / Revive
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Revive</comment>
+  </data>
+  <data name="EX_525645_545259_btn_Clear_Selected_Click" xml:space="preserve">
+    <value>The Class Revive, Where { btn_Clear_Selected_Click } is located contained errors.
+&gt;&gt; Try...Catch / Revive
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Revive</comment>
+  </data>
+  <data name="EX_525645_545259_Revive_Load" xml:space="preserve">
+    <value>The Class Revive, Where { Revive_Load } is located contained errors.
+&gt;&gt; Try...Catch / Revive
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Revive</comment>
+  </data>
+  <data name="EX_44574E_545259_btn_Calculate_Click" xml:space="preserve">
+    <value>The Class Downs, Where { btn_Calculate_Click } is located contained errors.
+&gt;&gt; Try...Catch / Downs
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Downs</comment>
+  </data>
+  <data name="EX_44574E_545259_btn_Clear_Selected_Click" xml:space="preserve">
+    <value>The Class Downs, Where {  } is located contained errors.
+&gt;&gt; Try...Catch / Downs
+This is an ‘Internal Error’ due to the program failing.</value>
+    <comment>Try...Catch / Downs</comment>
+  </data>
+</root>

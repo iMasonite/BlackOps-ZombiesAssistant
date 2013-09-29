@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="reg_Registered" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="reg_Registered_Email" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NoEmail@Nothing.co.uk</Value>
+    </Setting>
+    <Setting Name="set_ShowAccumulative" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="set_SamsGame_Display" Type="System.SByte" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="sve_HexSave_Home" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="reg_Registered_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Some Guys Name</Value>
+    </Setting>
+    <Setting Name="FTP_Req_URL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ftp://ftp.example.co.uk/uploads</Value>
+    </Setting>
+    <Setting Name="FTP_Email" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">exampleftp@example.co.uk</Value>
+    </Setting>
+    <Setting Name="FTP_Passw" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">000000000000</Value>
+    </Setting>
+    <Setting Name="APPLICATION_DEBUG" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FTP_Active" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MacAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="reg_Registered_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">000000000000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

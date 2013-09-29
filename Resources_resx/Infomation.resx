@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IF_49464D_Check_DisplayResolution" xml:space="preserve">
+    <value>Hi.  This program was intended to be for personal use but later decided to release it the general public under the EULA licence agreement.
+
+As this program was developed with a particular computer in mind, namely my own. The program MINIMUM SCREEN RESOLUTION is set to 768x1150-(h,w)
+
+THERE COULD BE DISPLAY ERRORS WHILE YOU USE THIS PROGRAM WITH A RESOLUTION LOWER THAN 768x1150.</value>
+    <comment>768x1150.</comment>
+  </data>
+  <data name="IF_49464D_Score_Grand" xml:space="preserve">
+    <value>THIS NUMBER IS BY NO MEANS A JOKE...
+
+TAKE IT VERY SERIOUSLY THROUGHOUT THE “REVIVE GLITCH”
+
+This Number is the collective score of ALL actions in the game that you have updated. Keep an eye on it!
+
+If you score reaches [2,000,000] YOUR SCORE WILL NOT COUNT ON THE LEADER BOARDS and you will have wasted hours of your life trying to get up there to #1</value>
+    <comment>Information Message</comment>
+  </data>
+  <data name="IF_49464D_Score_Maximum" xml:space="preserve">
+    <value>THIS NUMBER IS BY NO MEANS A JOKE...
+
+TAKE IT VERY SERIOUSLY THROUGHOUT THE “REVIVE GLITCH”  
+
+If you score reaches [2,000,000] YOUR SCORE WILL NOT COUNT ON THE LEADER BOARDS and you will have wasted hours of your life trying to get up there to #1
+
+You and ALL OTHER PLAYERS in the game MUST STAY UNDER OR AT [1,999,990] for it to count.
+
+This number is the ""Remaining Amount"" before you hit [1,999,990]!!!!
+
+Also note that [5000] KILLS or more will also NOT COUNT your score so STAY AT [4999] OR UNDER.</value>
+    <comment>Information Message</comment>
+  </data>
+  <data name="IF_49464D_Score_Should" xml:space="preserve">
+    <value>After calculating your scores using the "Revive Glitch" form, the "Down &amp; Bleedout" form, adding all your bought items and updating your "Current Score" this number becomes very important.
+
+This number is what your Final Score should look like On Screen before you hit the 1,999,990 mark.
+
+So an "Example" of this would be a simple math like so: 
+
+Your Current Score(On Screen) is....  [178,340]
+Needed for 2M Score says....  [ 38,960 ]
+so "Your Score Should Look Like".... [217,300]
+
+Simply: [What You Have] + [What You Need] = Your Score Should Look Like...</value>
+    <comment>Information Message</comment>
+  </data>
+  <data name="IF_49464D_CurrentScore" xml:space="preserve">
+    <value>Use this section to regularly update your onscreen (spendable) score to keep all the values accurate.</value>
+    <comment>Information Message</comment>
+  </data>
+  <data name="IF_49464D_ManualEntry" xml:space="preserve">
+    <value>If there is a negative impact on your score that has no button, you can enter the value here.</value>
+    <comment>Information Message</comment>
+  </data>
+  <data name="IF_49464D_IfMathTheRequest10Then" xml:space="preserve">
+    <value>Zombie’s point system works in multiples of 10, the value here is less than 10. If you submit a value less than 10 in the “Manual Entry” Section it will likely make your score inaccurate.</value>
+    <comment>If MathTheRequest &lt; 10 Then</comment>
+  </data>
+  <data name="IF_49464D_Score_Calculated_Result" xml:space="preserve">
+    <value>This Calculator is designed to assist with score issues that may arise. The working function behind this is set with minimal functionality. 
+
+Although this is the case, it should meet the needs as required in the game. The calculator acts as a corrector for numbers ending in numbers 1-9, this cannot be so in the zombie scoring system and must be rounded to the nearest next Ten. This will be marked with {R} if this correction occurs.</value>
+    <comment>Information Message</comment>
+  </data>
+  <data name="IF_49464D_ntb_CalculatorEndValue" xml:space="preserve">
+    <value>There is a Numeric Text Box that has been evaluated a being empty, the information in this text box is critical to the continuation of the subroutine that you are trying to execute.
+
+Please Check the values and try again. The Subroutine will now exit.</value>
+    <comment>Empty Numeric TextBox</comment>
+  </data>
+  <data name="IF_49464D_ntb_CalculatorStartValue" xml:space="preserve">
+    <value>There is a Numeric Text Box that has been evaluated a being empty, the information in this text box is critical to the continuation of the subroutine that you are trying to execute.
+
+Please Check the values and try again. The Subroutine will now exit.</value>
+    <comment>Empty Numeric TextBox</comment>
+  </data>
+  <data name="IF_49464D_ntb_CurrentScoreValue" xml:space="preserve">
+    <value>There is a Numeric Text Box that has been evaluated a being empty, the information in this text box is critical to the continuation of the subroutine that you are trying to execute.
+
+Please Check the values and try again. The Subroutine will now exit.</value>
+    <comment>Empty Numeric TextBox</comment>
+  </data>
+  <data name="IF_49464D_WrongNumber" xml:space="preserve">
+    <value>Zombie’s point system works in multiples of 10.
+
+The value here is a number that does not conform to this rule. If you submit a value that is not a multiple of 10 in the “Manual Entry” Section it will likely make your score inaccurate.
+
+The value [ {0} ] is invalid because it ends in '{1}' and not a ‘0’
+
+Would you like to round this number up to [ {2} ] ?</value>
+    <comment>Information Message</comment>
+  </data>
+  <data name="IF_49464D_Invalid_Values1" xml:space="preserve">
+    <value>Invalid Input Detected!
+
+Please check your Input Values as the Starting value MUST be higher than the Ending value. The Starting Value MUST be greater than 0
+
+The Calculation will now exit...</value>
+    <comment>Invalid Values Input Detected!</comment>
+  </data>
+  <data name="IF_49464D_Invalid_Values2" xml:space="preserve">
+    <value>Invalid Input Detected!
+
+The Starting Value MUST be greater than ZERO
+
+The Calculation will now exit...</value>
+    <comment>Invalid Values Input Detected!</comment>
+  </data>
+  <data name="IF_49464D_PlayerDown" xml:space="preserve">
+    <value>This section is a vital section if you are to accurately calculate your loss due to one of your teammates Bleeding Out (Disappearing from the map to be spawned next round).
+
+In the game, when your team mate bleeds out... you will instantly lose 10% of your current spendable points. 
+
+With this in mind, ANYTIME that your teammate bleeds out you MUST take your CURRENT SPENDABLE SCORE... AFTER he bleeds out and BEFORE YOU EARN MORE.</value>
+    <comment>Display Information</comment>
+  </data>
+  <data name="IF_49464D_SelfDown" xml:space="preserve">
+    <value>This section is a vital section if you are to accurately calculate your loss due to yourself being downed.
+
+In the game, when you are downed... you will instantly lose 5% of your current spendable points rounded up to the nearest 10. 
+
+With this in mind, ANYTIME that you go down you MUST take your CURRENT SPENDABLE SCORE while you are down or after you have been revived but BEFORE YOU EARN MORE.</value>
+    <comment>Display Information</comment>
+  </data>
+</root>

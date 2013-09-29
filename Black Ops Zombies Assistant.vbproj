@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43A5D68D-B9A8-42B7-BDB3-19AFBA6BA9B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BO_Zombies.My.MyApplication</StartupObject>
+    <RootNamespace>BO_Zombies</RootNamespace>
+    <AssemblyName>Black Ops Zombies Assistant</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Resources\Pento_FavIcon2.ico</ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>035E2A895201242CBFDC0FDC1314709BDF1859D2</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Zombies MOON Score Tracker 2012_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <ManifestTimestampUrl>
+    </ManifestTimestampUrl>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Black Ops Zombies Assistant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Black Ops Zombies Assistant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Telerik.WinControls, Version=2012.1.301.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2012.1.301.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Black, Version=2012.1.301.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Black, Version=2012.1.301.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2012.1.301.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2012.1.301.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2012.1.301.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikData, Version=2012.1.301.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Classes\Consn.vb" />
+    <Compile Include="Components\MyControls\NumericTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Funcs.vb" />
+    <Compile Include="Classes\Statk.vb" />
+    <Compile Include="Classes\Subsr.vb" />
+    <Compile Include="Classes\Globals.vb" />
+    <Compile Include="Components\OtherControls\DropdownColorBlender.designer.vb">
+      <DependentUpon>DropdownColorBlender.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\OtherControls\DropdownColorBlender.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\ssp_SubStatus.Designer.vb">
+      <DependentUpon>ssp_SubStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Custom Controls\ssp_SubStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms_SubForms\Customize.Designer.vb">
+      <DependentUpon>Customize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_SubForms\Customize.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_SubForms\Downs.Designer.vb">
+      <DependentUpon>Downs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_SubForms\Downs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_SubForms\KillTracker.Designer.vb">
+      <DependentUpon>KillTracker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_SubForms\KillTracker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_SubForms\Options.Designer.vb">
+      <DependentUpon>Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_SubForms\Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_SubForms\Revive.Designer.vb">
+      <DependentUpon>Revive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_SubForms\Revive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_SubForms\SamsGame.Designer.vb">
+      <DependentUpon>SamsGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_SubForms\SamsGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\OtherControls\iLabel.Designer.vb">
+      <DependentUpon>iLabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\OtherControls\iLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\FTPUpload.vb" />
+    <Compile Include="My Project\Application1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Resources_Img\ArtWork.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ArtWork.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources_resx\Blanks.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Blanks.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources_resx\Exception.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Exception.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources_resx\Infomation.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Infomation.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Forms_SubForms\Donate.Designer.vb">
+      <DependentUpon>Donate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_SubForms\Donate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Components\OtherControls\DropdownColorBlender.resx">
+      <DependentUpon>DropdownColorBlender.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Controls\ssp_SubStatus.resx">
+      <DependentUpon>ssp_SubStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_SubForms\Customize.resx">
+      <DependentUpon>Customize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_SubForms\Downs.resx">
+      <DependentUpon>Downs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_SubForms\KillTracker.resx">
+      <DependentUpon>KillTracker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_SubForms\Options.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_SubForms\Revive.resx">
+      <DependentUpon>Revive.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_SubForms\SamsGame.resx">
+      <DependentUpon>SamsGame.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources_Img\ArtWork.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArtWork.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources_resx\Blanks.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Blanks.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources_resx\Exception.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Exception.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources_resx\Infomation.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Infomation.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_SubForms\Donate.resx">
+      <DependentUpon>Donate.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZombieLabs.ico" />
+    <None Include="Resources\pp_secure.gif" />
+    <None Include="Resources\SplashScreenBG.png" />
+    <None Include="Resources\ppb_donate.png" />
+    <None Include="Resources\arrow_l.png" />
+    <None Include="Resources\arrow_r.png" />
+    <None Include="Resources\MoonArt_1.jpg" />
+    <None Include="Resources\MoonArt_2.jpg" />
+    <None Include="Resources\MoonArt_3.jpg" />
+    <None Include="Resources\icn_bin.png" />
+    <None Include="Resources\icn_bugreport.png" />
+    <None Include="Resources\icn_close.png" />
+    <None Include="Resources\icn_content.png" />
+    <None Include="Resources\icn_doc_export.png" />
+    <None Include="Resources\icn_doc_import.png" />
+    <None Include="Resources\icn_doc_new.png" />
+    <None Include="Resources\icn_donate.png" />
+    <None Include="Resources\icn_multiplayer.png" />
+    <None Include="Resources\icn_redo.png" />
+    <None Include="Resources\icn_register.png" />
+    <None Include="Resources\icn_settings.png" />
+    <None Include="Resources\icn_undo.png" />
+    <None Include="Resources\icn_view_acum.png" />
+    <None Include="Resources\icn_view_qty.png" />
+    <None Include="Resources\icn_custom.png" />
+    <None Include="Resources\icn_about.png" />
+    <None Include="Resources\icn_database.png" />
+    <None Include="Resources\icn_server_no.png" />
+    <None Include="Resources\icn_server_yes.png" />
+    <None Include="Resources\icn_no.png" />
+    <None Include="Resources\icn_sound_off.png" />
+    <None Include="Resources\icn_sound_on.png" />
+    <None Include="Resources\icn_yes.png" />
+    <None Include="Resources\icn_edit.png" />
+    <None Include="Resources\icn_file.png" />
+    <None Include="Resources\icn_forms.png" />
+    <None Include="Resources\icn_tools.png" />
+    <None Include="Resources\icn_help.png" />
+    <None Include="Resources\icn_chat_bubble.png" />
+    <None Include="Resources\icn_info.png" />
+    <None Include="Resources\icn_info_dark.png" />
+    <None Include="Resources\icn_info_light.png" />
+    <None Include="Resources\icn_window_close_white_dark.png" />
+    <None Include="Resources\icn_window_close_white_light.png" />
+    <None Include="Resources\bg_social.jpg" />
+    <Content Include="Resources\Pento_FavIcon2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes_Service\" />
+    <Folder Include="SplashScreens\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
